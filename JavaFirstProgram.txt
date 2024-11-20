@@ -1,0 +1,26 @@
+Class  FirstProgram
+{
+
+     public static void main(String[] args)
+     {
+     //Console
+
+        system.out.println("StudentId: 2413110772");
+	system.out.println("StudentName: Natchanon Chansom");
+	system.out.println("Topic: JavaFirstProgram");
+        system.out.println("Date: 20/11/24");
+
+
+     
+     //Dialog box
+
+
+
+        JoptionPane.showMessageDialog(null,
+        "StudentId : 2413110772" +
+        "\nStudentName : Natchanon Chansom" +
+        "\nTopic : JavaFirstProgram" +
+        "\nDate : 20/11/24");
+	}
+}
+        	
