@@ -1,4 +1,4 @@
-studentId:00177
+studentId:2413110772
 studentName:Natchanon Chansom
-Topic:github
-Date:11/20/2024
+Topic:Display, Variable and Input
+Date:27/11/2024
