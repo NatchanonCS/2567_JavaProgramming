@@ -11,7 +11,10 @@ public class JavaExample2 {
 		double totalPriceofProduct = productUnit *productPrice;
 		JOptionPane.showMessageDialog(null, "total Price is " + totalPriceofProduct + "Baht.");
 		double totalwithVat = totalPriceofProduct + 1.07;
-		JOptionPane.showMessageDialog(null, "Total Price is" + totalPriceofProduct + "Baht."+"\nAdd VAT is "+totalwithVat+" Baht.");
+		String frmtotalPriceofProduct = String.format("$,.2f",totalwithVat);
+		String frmtotalwithVat = String.format("$,.2f",totalwithVat);
+		
+		JOptionPane.showMessageDialog(null, "Total Price is" + totalPriceofProduct + "Baht."+"\nAdd VAT is "+totalwithVat + " Baht.");
 		
 		
 		
