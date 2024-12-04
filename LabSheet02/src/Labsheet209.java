@@ -21,13 +21,13 @@ public class Labsheet209 {
 		
 		salary = BASE_SALARY + (sales * COMMISSION_RATE);
 		
-		System.out.printf("The slaesperson's salary is : $%,.2f\n",salary);
+		System.out.printf("The slaesperson's salary is : $%,.2f%n\n",salary);
 		
 		System.out.println("bye");
 		
 		input.close();
 
-	}
+	   }
 
 }
 }
