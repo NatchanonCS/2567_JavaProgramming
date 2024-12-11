@@ -1,4 +1,4 @@
 studentId:2413110772
 studentName:Natchanon Chansom
-Topic:Control Statements (Decision Statement)
-Date:4/12/2024
+Topic:String Method
+Date:11/12/2024
