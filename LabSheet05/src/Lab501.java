@@ -21,9 +21,13 @@ public class Lab501 {
 			
 		}
 		if(validitem) {
+			JOptionPane.showMessageDialog(null,"Item"+itemOrder+" is "+itemPrice);
 			System.out.print("Item "+itemOrder+" is "+itemPrice);
 		}else {
-			JOptionPane.showMessageDialog(null,"Invalid Item");
+			JOptionPane.showMessageDialog(null,
+					"Invalid Item",
+					"Error",
+					JOptionPane.ERROR_MESSAGE);
 			System.out.print("Invalid Item");
 		}
 
