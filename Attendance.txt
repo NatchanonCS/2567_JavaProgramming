@@ -1,4 +1,4 @@
 studentId:2413110772
 studentName:Natchanon Chansom
-Topic:String Method
-Date:11/12/2024
+Topic:Array and Array Method
+Date:25/12/2024
