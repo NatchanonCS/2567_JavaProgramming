@@ -1,4 +1,4 @@
 studentId:2413110772
 studentName:Natchanon Chansom
-Topic:Class and Object
-Date:15/1/2024
+Topic:Encapsulation Concept
+Date:22/1/2024
