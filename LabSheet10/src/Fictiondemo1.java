@@ -1,9 +1,39 @@
+import java.util.Scanner;
 
 public class Fictiondemo1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.print("book title: ");
+		String bookTitle = scan.nextLine();
+		System.out.print("Book publish year: ");
+		int publicYear = scan.nextInt();
+		scan.nextLine();
+		System.out.print("Author name : ");
+		String authorName = scan.nextLine();
+		System.out.print("Author Eamil : ");
+		String authorEmail = scan.nextLine();
+		
+		FictionBook book1 = new FictionBook(bookTitle,publicYear);
+		book1.setAuthorName(authorName);
+		book1.setEmail(authorEmail);
+		while(!Book.checkEmail1()) {
+			System.out.print("Author email, again: ");
+			authorEmail = scan.nextLine();
+			book1.setEmail(authorEmail);
+			
+		}
+		
+		Line();
+		System.out.println(book1);
 
+	}
+	
+	public static void Line() {
+		for(int i=1; i<50;i++)
+			System.out.print("-");
+		System.out.println();
 	}
 
 }
